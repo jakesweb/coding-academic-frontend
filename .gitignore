@@ -1,0 +1,7 @@
+# node ignore
+node_modules/
+.next/
+
+# local ignore
+env.js
+.vscode/

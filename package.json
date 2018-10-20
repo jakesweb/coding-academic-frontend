@@ -1,0 +1,25 @@
+{
+  "name": "coding-academic-frontend",
+  "version": "0.0.1",
+  "description": "coding academic frontend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/jcolborn/coding-academic-frontend.git"
+  },
+  "author": "Jacob Colborn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/jcolborn/coding-academic-frontend/issues"
+  },
+  "homepage": "https://gitlab.com/jcolborn/coding-academic-frontend#README",
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
