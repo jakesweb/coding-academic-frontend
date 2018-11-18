@@ -4,6 +4,7 @@
 */
 // component import
 import Header from "./Header";
+import Nav from "./Nav";
 
 const layoutStyle = {
   margin: 20,
@@ -14,6 +15,7 @@ const layoutStyle = {
 const Layout = props => (
   <div style={layoutStyle}>
     <Header />
+    <Nav />
     {props.children}
   </div>
 );

@@ -20,25 +20,6 @@ const Header = () => (
           alt="Coding Academic Logo"
         />
       </div>
-      <nav>
-        <ul className="nav-menu">
-          <li>
-            <Link href="/index">
-              <a>Home</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/about">
-              <a>About</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/courses">
-              <a>Courses</a>
-            </Link>
-          </li>
-        </ul>
-      </nav>
     </div>
     <style jsx>{`
       .fluid-container {
@@ -53,25 +34,6 @@ const Header = () => (
       .logo-image {
         width: 100px;
         height: 100px;
-      }
-      .nav-menu {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-      }
-      .nav-menu li {
-        list-style: none;
-        margin-left: 20px;
-        margin-right: 20px;
-        font-size: 2em;
-      }
-      a {
-        text-decoration: none;
-        color: inherit;
-      }
-      a:hover {
-        text-decoration: none;
-        color: inherit;
       }
     `}</style>
   </header>
